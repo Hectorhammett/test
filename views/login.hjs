@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    {{#resultado}}
+      <b>{{resultado}}</b>
+    {{/resultado}}
+    <form method="post" action="/login">
+      <input type="text" name="usuario" placeholder="Usuario"/>
+      <input type="text" name="contrasena" placeholder="Password" value="{{resultado}}"/>
+      <input type="submit">
+    </form>
+  </body>
+</html>

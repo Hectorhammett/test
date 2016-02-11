@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign in</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form method="POST" action="/signin">
+      <input type="text" name="usuario" placeholder="Usuario"/>
+      <input type="text" name="contrasena" placeholder="Password"/>
+      <input type="submit">
+    </form>
+  </body>
+</html>
